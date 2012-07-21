@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0; padding:0;}
+body{
+	background:#202020;}
+.breadcrumbs{width:auto; position:absolute; left:50%; top:50%; margin-left:-120px;}
+.breadcrumbs li{display:block; float:left; position:relative; margin-left:-12px;}
+.breadcrumbs li.home{margin-left:0}
+.breadcrumbs li.home a{padding-left:8px;}
+.breadcrumbs li.home a img{border:0 none}
+/*.breadcrumbs li.home a span{text-indent:-999em; background:url(home-icon.png) 0 0 no-repeat;}*/
+.breadcrumbs li a{display:block; background:url(bcnav-left.png) 0 0 no-repeat; padding:0 0 0 30px; color:#fff; font:normal 12px/18px Arial, Helvetica, sans-serif; text-decoration:none }
+.breadcrumbs li a span{display:block; background:url(bcnav-right.png) right top no-repeat; padding:4px 18px 4px 0px; margin-right:-12px;}
+
+
+.breadcrumbs li.current a{display:block; background:none; padding:0 0 0 12px; color:#fff; font:normal 12px/18px Arial, Helvetica, sans-serif; text-decoration:none }
+.breadcrumbs li.current a span{display:block; background:url(bcnav-current.png) right top no-repeat; padding:4px 18px 4px 20px; margin-right:0}
